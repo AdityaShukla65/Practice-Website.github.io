@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Aditya's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header-upper blue">
+        <div class="header-upper-left">
+            <p><a href="#">Aditya</a></p>
+        </div>
+        <div class="header-upper-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">SignUp/SignIn</a></li>
+        </div>
+    </div>
+    <div class="header-middle white">
+        <div class="header-middle-left">
+            <div class="header-middle-left-upper">
+                <p class="first">I Am <span>Developer</span></p>
+                <p class="second">Hey! My name is Aditya, and I am a developer as well as a designer. I also have 6+ months of experience in video editing, photo editing, web design, web development, and front-end and back-end programming.</p>
+            </div>
+            <div class="header-middle-left-lower">
+                <button class="first"><a href="#">Hire Me</a></button>
+                <button class="second"><a href="#">Download CV <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="125" height="108" viewBox="0 0 125 108">
+                    <image x="2" y="3" width="121" height="103" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHkAAABnCAYAAAAkJu2iAAAFVklEQVR4nO2dsVLbQBBAVyZFStIwKd27AGqGwXwBdpkOviDQuHBDaFSoCfkC4AsgXwAMQx1SqA49RcgHBGfOs3JO5zvrbMvS6nbfjIYZIcNKzyvpTnerCJjQGQ4OAWAPANoA8AoA9wBwmcbJa+hHIHjJneFgCwAuAGDL8msleD+Nk6caQquMoCV3hoN1ALh1CM5QorfTOHmuNrrqaIW6Y8hxgWCF+iJ8rSyiGghd8oG5wnHq6lUQS22ELjmXxa3R/8UEr91BErpkK45sXq87rlXBUjI3RDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDRDIDSEvuDAdt6pXymhDjOwIx5MDKtqcAcJhVyesMB+rHJQCcUahmizGq4qyfqcaoQyqTtdLFx5YyiEr6j7qzRovxlGqMJtRO19cFpYvHB7iug+hZP3sd94MMZCSjuK7HprWI9hSc0cbXIZCAUiZPCc5KF1uoVPQswTNibFcRmw+UJOeub5G21Cm6SLAep8HmKuOaB0qSc3ekI1wA6hPtI9iMVePnKmJaBEqS78wVb1F9oucR/Gavkj61P3VBRjK2Lc/N9XWILkNwGici2UYaJyfYoZCjStElCFbvmOovE0PZkOvWTOPkyEf02sh6s7OU6JIE71N7axzZl391hoML7EHK0TLk6vI1xm9uU71Prs/+nd7zPvZiBSUYqL/hrQTRuWZZgeSp7c3PNFGwYo1ADE5eHh6/b+zutM3sGkX5tmkE1q/re3OF/pmRx/YhCAbqkmF50TkKJOcIRTA0QTKUKNpXckiCwXZI8M40uzY9U3o2uuQ1uuiaPLVNEwR3hoMuPtfOvKnYrtI4mbRQImPjC0vHumrUH1GR7RJttp9tooskN1Cw9VggkzhbuHEP24e2JyddfBBO4qmKqx1tSjGzu4gGCv4yQzBgZo+fa0fYAfDL44WUqqtuv9xQF2eRjHZlcgMFK1e/PTfvt/SxVAV0KQ1rKSujG3qTNfXsfUZ3756SvGeuXXM/CPcZuVEZy4pu8F10LtkibV8su7DVmuoV0j7o6BsmxaKiQ2smZVi/zPWEUi6+onVCFOwimBkUi4jmIBhCmyYzj2gugiHEuVA+ojkJhlAnvM0SrdrHnARDyLMaXaIdBCsYQp+66ik6aMHAYX4yij4xx3XjSBA1A3E7ZMFAcerqKkjjRA31Pdcfo1IaMrtqWEjOSOPkiUYk1SLlJBggkhkgkhkgkhkgkhkgkhkgkgPDOhQZu/Um2Ef9TCBTIoE583i4V5L/6Gt0yZaHNT3q1edCB49/T99N3ZNXJuc+bE/r2upocQeP+615GDJPjrPwXWQbw6sP73RNOcGnO/eWjn+hfNo4qnbmOHOHqw/jTO8MB9fmKWBN29o1b0ionwJPN2mc9LO76yvzt+ZwVoEe5kwRC9/AmPB2aw6e950tKFSLOVvCMWZtMq1Jbyef2bJZl5qVGHQMvBdWSKTJ9RCc8zmZhP7y8Pi8sbsTmdk8wr+uT/Se/ENZKlsiy6yWcRI6BOvzk3OVBl4eHu9sM/oz2VEkGUyBkXvEqeIS66FNsG5aMLk5X75BqITsDF1wT3SJY9pyWGuGYI2OqVO3yUiWyhYPzswMznAWhsFT9z2euj9KvpJF9Vh+0q/BJl5nXKzCfmB2mAi1coMFYG6KgpjrsopdoF3M7k2K85UDRo0NVzW0VeaqNrDfWHEA+Ae8sJgNXB8qIQAAAABJRU5ErkJggg=="/>
+                  </svg></a></button>
+            </div>
+        </div>
+        <div class="header-middle-right">
+            <img src="Other\Icons\Main Photo.png" alt="Main Image" class="main-img">
+        </div>
+    </div>
+    <div class="header-lower blue">
+        <div class="header-lower-upper">
+            <p class="heading">My Work & Project</p>
+            <p class="heading-para">These are the projects I've created during my more than six months of working with various software. My imagination and abilities are demonstrated in these undertakings.</p>
+        </div>
+        <div class="header-lower-lower">
+            <div class="header-lower-lower-left god">
+                <a href="#" class="first-work"><img src="Other\Images\Used\My Work 1-min.jpg" alt="My Projects"></a>
+                <a href="#" class="first-work"><p class="first">Summer</p></a>
+                <a href="#" class="second-work"><img src="Other\Images\Used\My Work 2-min.jpg" alt="My Projects"></a>
+                <a href="#" class="second-work"><p class="second">Ship</p></a>
+                <a href="#" class="third-work"><img src="Other\Images\Used\My Work 3-min.jpg" alt="My Projects"></a>
+                <a href="#" class="third-work"><p class="third">Color</p></a>
+            </div>
+            <div class="header-lower-lower-middle-left god">
+                <a href="#" class="first-work"><img src="Other\Images\Used\My Work 4-min.jpg" alt="My Projects"></a>
+                <a href="#" class="first-work"><p class="first">Palace</p></a>
+                <a href="#" class="second-work"><img src="Other\Images\Used\My Work 5-min.jpg" alt="My Projects"></a>
+                <a href="#" class="second-work"><p class="second">Juice</p></a>
+                <a href="#" class="third-work"><img src="Other\Images\Used\My Work 6-min.jpg" alt="My Projects"></a>
+                <a href="#" class="third-work"><p class="third">Bottle</p></a>
+            </div>
+            <div class="header-lower-lower-middle-right god">
+                <a href="#" class="first-work"><img src="Other\Images\Used\My Work 7-min.jpg" alt="My Projects"></a>
+                <a href="#" class="first-work"><p class="first">Blend</p></a>
+                <a href="#" class="second-work"><img src="Other\Images\Used\My Work 8-min.jpg" alt="My Projects"></a>
+                <a href="#" class="second-work"><p class="second">Style</p></a>
+                <a href="#" class="third-work"><img src="Other\Images\Used\My Work 9-min.jpg" alt="My Projects"></a>
+                <a href="#" class="third-work"><p class="third">Dragon</p></a>
+            </div>
+            <div class="header-lower-lower-right god">
+                <a href="#" class="first-work"><img src="Other\Images\Used\My Work 10-min.jpg" alt="My Projects"></a>
+                <a href="#" class="first-work"><p class="first">Mockup</p></a>
+                <a href="#" class="second-work"><img src="Other\Images\Used\My Work 11-min.jpg" alt="My Projects"></a>
+                <a href="#" class="second-work"><p class="second">Design</p></a>
+                <a href="#" class="third-work"><img src="Other\Images\Used\My Work 12-min.jpg" alt="My Projects"></a>
+                <a href="#" class="third-work"><p class="third">Bird</p></a>
+            </div>
+        </div>
+        <div>
+            <div class="header-lower-lower-button">
+                <button><a href="#">See more</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="middle-upper white display-none">
+        <div class="middle-upper-upper">
+            <p class="heading">Clients Say</p>
+            <p class="heading-para">Ratings from prior customers indicating their level of satisfaction with the services I rendered.</p>
+        </div>
+        <div class="middle-upper-lower">
+            <div class="middle-upper-lower-left box">
+                <div class="upper">
+                    <div class="upper-left">
+                        <img src="Other\Icons\Male client.png" alt="Male Client" class="box-image">
+                    </div>
+                    <div class="upper-right">
+                        <p>Williams Smith</p>
+                        <div class="stars">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-half.svg" alt="Half Filled Star" class="star-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <p>"One of the best freelance editor and animator I have ever seen, he completed my 2-month project in 1 month and 12 days of editing a short film by using some 3D  animation and video and photo editing tools."</p>
+                </div>
+            </div>
+            <div class="middle-upper-lower-middle box">
+                <div class="upper">
+                    <div class="upper-left">
+                        <img src="Other\Icons\Gangster client.png" alt="Female Client" class="box-image">
+                    </div>
+                    <div class="upper-right">
+                        <p>John Liam</p>
+                        <div class="stars">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Unfilled Star" class="star-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <p>"He is a smart as well as creative and skilled person. I hired him to make a website for my company, and he made the best website possible for our company in a very short time period."</p>
+                </div>
+            </div> 
+            <div class="middle-upper-lower-right box">
+                <div class="upper">
+                    <div class="upper-left">
+                        <img src="Other\Icons\Female Client.png" alt="Female Client" class="box-image">
+                    </div>
+                    <div class="upper-right">
+                        <p>Emma Kennedy</p>
+                        <div class="stars">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star-fill.svg" alt="Full Filled Star" class="star-icon">
+                            <img src="Other\Icons\star.svg" alt="Unfilled Star" class="star-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <p>"He is a very creative person with very brilliant skills; he is an expert in both front end and back end. First, I hired him to make a logo for my website, but after seeing his creativity, I also hired him for the front and back ends of my website, and now I have a very beautiful and well-functioning website."</p>
+                </div>
+            </div> 
+        </div>  
+    </div>
+    <div class="middle-middle blue display-none">
+        <div class="middle-middle-upper">
+            <p class="heading">My Skills</p>
+            <p class="heading-para">According to the level I specialise in, these are my skills, and I have done work in these areas with positive feedback from prior clients.</p>
+        </div>
+        <div class="middle-middle-lower">
+            <div class="middle-middle-lower-left">
+                <div class="first">
+                    <img src="Other\Icons\HTML logo.png" alt="HTML" class="first">
+                    <img src="Other\Icons\My-Skills-div-pink.svg" alt="Div-Pink" class="second">
+                    <p>95%</p>
+                </div>
+                <div class="second">
+                    <img src="Other\Icons\Photo Editing logo.png" alt="Photo Editing" class="first">
+                    <img src="Other\Icons\My-Skills-div-blue.svg" alt="Div-Green" class="second">
+                    <p>92%</p>
+                </div>
+                <div class="third">
+                    <img src="Other\Icons\3D Animation logo.png" alt="3D" class="first">
+                    <img src="Other\Icons\My-Skills-div-pink.svg" alt="Div-Pink" class="second">
+                    <p>68%</p>
+                </div>
+            </div>
+            <div class="middle-middle-lower-right">
+                <div class="first">
+                    <img src="Other\Icons\CSS logo.png" alt="CSS" class="first">
+                    <img src="Other\Icons\My-Skills-div-blue.svg" alt="Div-Green" class="second">
+                    <p>85%</p>
+                </div>
+                <div class="second">
+                    <img src="Other\Icons\Video Editing logo.png" alt="Video Editing" class="first">
+                    <img src="Other\Icons\My-Skills-div-pink.svg" alt="Div-Pink" class="second">
+                    <p>96%</p>
+                </div>
+                <div class="third">
+                    <img src="Other\Icons\Python logo.png" alt="Python" class="first">
+                    <img src="Other\Icons\My-Skills-div-blue.svg" alt="Div-Green" class="second">
+                    <p>72%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-lower white display-none">
+        <div class="middle-lower-upper">
+            <p class="heading">My Services</p>
+            <p class="heading-para">These are the services that I offer for different kinds of work and projects.</p>
+        </div>
+        <div class="middle-lower-lower">
+            <div class="middle-lower-lower-left">
+                <div class="first green">
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\Photo Editing.png" alt="Photo Editing" class="my-service-logo"></a>
+                    </div>
+                    <div class="right">
+                        <p class="first">Photo Editing</p>
+                        <p class="second">I mainly use Photoshop and Illustrator for photo editing, and I can also add some infographics to the photo on demand from the client.</p>
+                        <p class="third"><a href="#" class="read-more semi-light-blue">Read more...</a></p>
+                    </div>
+                </div>
+                <div class="second pink">
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\Audio Editing.png" alt="Video Editing" class="my-service-logo"></a>
+                    </div>
+                    <div class="right">
+                        <p class="first">Audio Editing</p>
+                        <p class="second">I primarily use Adobe Audition for audio editing, and I can also remove any background noise per the client's request.</p>
+                        <p class="third"><a href="#" class="read-more mid-blue">Read more...</a></p>
+                    </div>
+                </div>
+                <div class="third green">
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\Front End Development.png" alt="Audio Editing" class="my-service-logo"></a>
+                    </div>
+                    <div class="right">
+                        <p class="first">Front End Development</p>
+                        <p class="second">For front-end development, I use HTML, CSS, and JS, and I can also design a website with the help of Photoshop and Illustrator if the client wants to take advantage of my photo editing service.</p>
+                        <p class="third"><a href="#" class="read-more semi-light-blue">Read more...</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-lower-lower-right">
+                <div class="first pink">
+                    <div class="right">
+                        <p class="first">Video Editing</p>
+                        <p class="second">For video editing, I primarily use Premiere Pro and After Effects, but I can also perform some 3D animation if the client requests it and hires my 3D Animation Service.</p>
+                        <p class="third"><a href="#" class="read-more mid-blue">Read more...</a></p>
+                    </div>
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\Video Editing.png" alt="3D Animation" class="my-service-logo"></a>
+                    </div>
+                </div>
+                <div class="second green">
+                    <div class="right">
+                        <p class="first">3D Animation</p>
+                        <p class="second">For 3D animation, I primarily use AutoDesk Maya and Blender, but I can also create 3D mockups of products on the client's demand or request.</p>
+                        <p class="third"><a href="#" class="read-more semi-light-blue">Read more...</a></p>
+                    </div>
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\3D Animation.png" alt="Front End Development" class="my-service-logo"></a>
+                    </div>
+                </div>
+                <div class="third pink">
+                    <div class="right">
+                        <p class="first">Back End Development</p>
+                        <p class="second">For the back end, I use a combination of Java Script and Python, and if the client wants to design his website, he can take advantage of my front end development service.</p>
+                        <p class="third"><a href="#" class="read-more mid-blue">Read more...</a></p>
+                    </div>
+                    <div class="left">
+                        <a href="#"><img src="Other\Icons\Back End Development.png" alt="Back End Development" class="my-service-logo"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lower-upper blue display-none">
+        <div class="lower-upper-upper">
+            <p class="heading">My Education</p>
+            <p class="heading-para">The following are my qualifications and education that I have obtained during my life, whether in college, school, or by taking any other courses of my interest.</p>
+        </div>
+        <div class="lower-upper-lower">
+            <div class="lower-upper-lower-left">
+                <div class="first whiter size-up">
+                    <div class="flex">                   
+                        <div class="flex-kill">
+                            <p class="first">PhotoShop</p>
+                            <p class="second">Advanced</p>
+                            <p class="third">I Completed my Photo Shop Advanced and Essentials Course</p>
+                        </div>
+                        <div class="date">6-5-2022</div>
+                        <img src="Other\Icons\Date Background.png" alt="Date Background">
+                    </div>
+                </div>
+                <div class="second whiter size-down">
+                    <div class="flex">
+                        <div class="flex-kill">
+                            <p class="first">HTML & CSS</p>
+                            <p class="second">Masters</p>
+                            <p class="third">I Completed my HTML & CSS Master and Intermediate Course</p>
+                        </div>
+                        <div class="date">5-23-2022</div>
+                        <img src="Other\Icons\Date Background.png" alt="Date Background">
+                    </div>
+                </div>
+            </div>
+            <div class="lower-upper-lower-right">
+                <div class="first whiter size-up">
+                    <div class="flex">     
+                        <div class="flex-kill">
+                            <p class="first">After Effects</p>
+                            <p class="second">Advanced</p>
+                            <p class="third">I Completed my After Effects Advanced and Essentials Course</p>
+                        </div>
+                        <div class="date">7-17-2022</div>
+                        <img src="Other\Icons\Date Background.png" alt="Date Background">
+                    </div>
+                </div>
+                <div class="second whiter size-down">
+                    <div class="flex">
+                        <div class="flex-kill">
+                            <p class="first">Python</p>
+                            <p class="second">Masters</p>
+                            <p class="third">I Completed my Python Master and Intermediate Course</p>
+                        </div>
+                        <div class="date">10-8-2022</div>
+                        <img src="Other\Icons\Date Background.png" alt="Date Background">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lower-middle white display-none">
+        <div class="lower-middle-upper">
+            <p class="heading">Contact Me</p>
+            <p class="heading-para">If you are impressed by my work and ratings, you can hire me through any of the methods listed below, and I guarantee you will be completely delighted with my work.</p>
+        </div>
+        <div class="lower-middle-middle">
+            <div class="lower-middle-middle-left centered">
+                <a href="#" class="first"><img src="Other\Icons\telephone.svg" alt="Phone" class="gold"></a>
+                <p class="first"><a href="#" class="noob">Phone</a></p>
+                <p class="second">For further information, please contact me via phone.</p>
+                <a href="#" class="first">+919935104939</a>
+            </div>
+            <div class="lower-middle-middle-middle centered">
+                <a href="#" class="first"><img src="Other\Icons\envelope.svg" alt="Email" class="gold"></a>
+                <p class="first"><a href="#" class="noob">Email</a></p>
+                <p class="second">For further information, please contact me via email.</p>
+                <a href="#" class="first">lalitshuklapiyus@gmail.com</a>
+            </div>
+            <div class="lower-middle-middle-right centered">
+                <a href="#" class="first"><img src="Other\Icons\geo-alt.svg" alt="Location" class="gold"></a>
+                <p class="first"><a href="#" class="noob">Location</a></p>
+                <p class="second">For additional information, go to this location.</p>
+                <a href="#" class="first">View on Google map</a>
+            </div>
+        </div>
+        <div class="lower-middle-lower">
+            <form action="#">
+                <div class="left">
+                    <input type="text" placeholder="First Name:">
+                    <input type="text" placeholder="Last Name:">
+                    <input type="email" placeholder="Your Email:">
+                    <input id="subject" type="text" placeholder="Your Subject:">
+                </div>
+                <div class="right">
+                    <input class="message" type="text" placeholder="Your Message:">
+                    <input class="submit" type="submit" placeholder="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="lower-lower blue">
+        <div class="lower-lower-upper">
+            <p class="heading">Social Media</p>
+            <p class="heading-para">Please follow me on social media if you enjoy my work and want to see more like it.</p>
+        </div>
+        <div class="lower-lower-lower">
+            <a href="#"><img src="Other\Icons\facebook.svg" alt="Facebook" id="firster"></a>
+            <a href="#"><img src="Other\Icons\instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="Other\Icons\messenger.svg" alt="Messenger"></a>
+            <a href="#"><img src="Other\Icons\telegram.svg" alt="Telegram"></a>
+            <a href="#"><img src="Other\Icons\whatsapp.svg" alt="Whatsapp"></a>
+            <a href="#"><img src="Other\Icons\youtube.svg" alt="Youtube"></a>
+        </div>
+    </div>
+    <div class="copyright white">
+        <img src="Other\Icons\c-circle.svg" alt="Copyright">
+        <span>2022-2023 Aditya</span>
+    </div>
+</body>
+</html>
